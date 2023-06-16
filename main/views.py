@@ -42,7 +42,7 @@ def results(request):
                                    range7=int(request.POST[f'range7']))
     v.name = request.POST['name']
     v.save()
-    return render(request, "main/results.html", {'text': text})
+    return render(request, "main/results.html", {'text': text, 'name':request.POST['name']})
 
 def admin(request):
     data = models.Vote.objects.all()

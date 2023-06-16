@@ -22,6 +22,8 @@ html = '''
             .column {{
                 display: flex;
                 flex-direction: column;
+                margin: 10px;
+                width: 300px;
             }}
             .sport {{
                 background-color: #E69F00;
