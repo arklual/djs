@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import HttpResponseForbidden
 from . import dia, models
 import math
@@ -87,3 +87,9 @@ def admin(request):
         }
     dia.generate(data)
     return render(request, "main/admin.html", {})
+
+def clear(request):
+    data = models.Vote.objects.all()
+    for i, _ in enumerate(data):
+        data[i].delete()
+    return redirect('/')
