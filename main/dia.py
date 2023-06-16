@@ -25,6 +25,7 @@ html = '''
                 margin: 10px;
                 width: 300px;
                 text-align: center;
+                color: white;
             }}
             .sport {{
                 background-color: #E69F00;
