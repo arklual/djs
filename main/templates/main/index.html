@@ -31,8 +31,9 @@
                 {% csrf_token %}
                 <div class="mb-3">
                     <label for="name" class="form-label">Имя: </label>
-                    <input type="text" class="form-control" id="name" name="name">
+                    <input required type="text" class="form-control" id="name" name="name">
                 </div>
+                <br>
                 <label for="range1">👨‍👩‍👧‍👦 Оцените сферу "Семья" в вашей жизни по шкале от 1 до 10.</label>
                 <input list="rangeList" style="width: 100%;" type="range" class="custom-range" id="range1" name="range1" min="1" max="10"><output id="output1"></output><br>
                 <datalist id="rangeList">

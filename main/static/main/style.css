@@ -5,10 +5,7 @@
     .container{
         width: 600px;
     }
-    label { 
-        font-size: 14pt;
-    }
-    output {
+    * { 
         font-size: 14pt;
     }
 }
@@ -16,16 +13,7 @@
     .container {
       max-width: 92%;
     }
-    label { 
-        font-size: 30pt;
-    }
-    output {
-        font-size: 30pt;
-    }
-    p {
-        font-size: 30pt;
-    }
-    .btn {
+    * { 
         font-size: 30pt;
     }
 }
