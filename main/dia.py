@@ -118,7 +118,7 @@ def generate(data):
     for color, angle, label, value in zip(colors, angles, data.keys(), data.values()):
         ax.bar(
                 x=angle + 0.0871966666666666/2+0.4, 
-                height=i, 
+                height=10, 
                 width=0.01, 
                 color="#000", 
                 alpha=1  
