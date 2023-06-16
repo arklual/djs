@@ -29,24 +29,31 @@ html = '''
             }}
             .sport {{
                 background-color: #E69F00;
+                padding: 2px 0;
             }}
             .family {{
                 background-color: #56B4E9;
+                padding: 2px 0;
             }}
             .friends {{
                 background-color: #009E73;
+                padding: 2px 0;
             }}
             .work {{
                 background-color: #F0E442;
+                padding: 2px 0;
             }}
             .hobby {{
                 background-color: #0072B2;
+                padding: 2px 0;
             }}
             .money {{
                 background-color: #D55E00;
+                padding: 2px 0;
             }}
             .selfedu {{
                 background-color: #D55EFF;
+                padding: 2px 0;
             }}
         </style>
     </head>
