@@ -1,8 +1,15 @@
 * {
     font-family: 'Gilroy-Bold', sans-serif;
 }
-.container {
-    max-width: 600px;
+@media (min-width: 1500px) {
+    .container{
+        width: 600px;
+    }
+}
+@media (max-width: 1024px){
+    .container {
+      max-width: 100%;
+    }
 }
 label { 
     font-size: 14pt;

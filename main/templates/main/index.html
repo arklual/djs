@@ -28,19 +28,27 @@
                     <input type="text" class="form-control" id="name" name="name">
                 </div>
                 <label for="range1">👨‍👩‍👧‍👦 Оцените сферу "Семья" в вашей жизни по шкале от 1 до 10.</label>
-                <input style="width: 100%;" type="range" class="custom-range" id="range1" name="range1" min="1" max="10"><output id="output1"></output><br>
+                <input list="rangeList" style="width: 100%;" type="range" class="custom-range" id="range1" name="range1" min="1" max="10"><output id="output1"></output><br>
+                <datalist id="rangeList">
+                    <option value="0" label="0">
+                    <option value="2" label="2">
+                    <option value="4" label="4">
+                    <option value="6" label="6">
+                    <option value="8" label="8">
+                    <option value="10" label="10">
+                </datalist>
                 <label for="range2">👫 Оцените сферу "Друзья" в вашей жизни по шкале от 1 до 10.</label>
-                <input style="width: 100%;" type="range" class="custom-range" id="range2" name="range2" min="1" max="10"><output id="output2"></output><br>
+                <input list="rangeList" style="width: 100%;" type="range" class="custom-range" id="range2" name="range2" min="1" max="10"><output id="output2"></output><br>
                 <label for="range3">💼 Оцените сферу "Работа" в вашей жизни по шкале от 1 до 10.</label>
-                <input style="width: 100%;" type="range" class="custom-range" id="range3" name="range3" min="1" max="10"><output id="output3"></output><br>
+                <input list="rangeList" style="width: 100%;" type="range" class="custom-range" id="range3" name="range3" min="1" max="10"><output id="output3"></output><br>
                 <label for="range4">🎨 Оцените сферу "Хобби" в вашей жизни по шкале от 1 до 10.</label>
-                <input style="width: 100%;" type="range" class="custom-range" id="range4" name="range4" min="1" max="10"><output id="output4"></output><br>
+                <input list="rangeList" style="width: 100%;" type="range" class="custom-range" id="range4" name="range4" min="1" max="10"><output id="output4"></output><br>
                 <label for="range5">💰 Оцените сферу "Финансы" в вашей жизни по шкале от 1 до 10.</label>
-                <input style="width: 100%;" type="range" class="custom-range" id="range5" name="range5" min="1" max="10"><output id="output5"></output><br>
+                <input list="rangeList" style="width: 100%;" type="range" class="custom-range" id="range5" name="range5" min="1" max="10"><output id="output5"></output><br>
                 <label for="range6">🏋️‍♀️ Оцените сферу "Спорт и здоровье" в вашей жизни по шкале от 1 до 10.</label>
-                <input style="width: 100%;" type="range" class="custom-range" id="range6" name="range6" min="1" max="10"><output id="output6"></output><br>
+                <input list="rangeList" style="width: 100%;" type="range" class="custom-range" id="range6" name="range6" min="1" max="10"><output id="output6"></output><br>
                 <label for="range7">🧠 Оцените сферу "Саморазвитие" в вашей жизни по шкале от 1 до 10.</label>
-                <input style="width: 100%;" type="range" class="custom-range" id="range7" name="range7" min="1" max="10"><output id="output7"></output><br>
+                <input list="rangeList" style="width: 100%;" type="range" class="custom-range" id="range7" name="range7" min="1" max="10"><output id="output7"></output><br>
                 <button type="submit" class="btn btn-primary">Отправить</button>
             </form>
         </div>
