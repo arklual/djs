@@ -41,7 +41,6 @@ def results(request):
                                    range5=int(request.POST[f'range5']), range6=int(request.POST[f'range6']),
                                    range7=int(request.POST[f'range7']))
     v.name = request.POST['name']
-    v.email = request.POST['email']
     v.save()
     return render(request, "main/results.html", {'text': text})
 

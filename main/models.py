@@ -2,7 +2,6 @@ from django.db import models
 
 class Vote(models.Model):
     name = models.CharField(max_length=255)
-    email = models.CharField(max_length=255)
     range1 = models.IntegerField('Семья')
     range2 = models.IntegerField('Друзья')
     range3 = models.IntegerField('Работа')
