@@ -8,7 +8,11 @@ html = '''
 <html>
     <head>
         <link rel="stylesheet" href="diagram.css">
+        <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
         <style>
+            * {{
+                font-family: 'Gilroy-Bold', sans-serif;
+            }}
             .row {{
                 display: flex;
                 flex-direction: row;
